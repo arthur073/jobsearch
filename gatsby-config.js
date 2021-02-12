@@ -1,11 +1,11 @@
 /* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
   siteMetadata: {
-    title: 'Gatstrap',
-    description: 'Gatsby starter for bootstrap a blog',
-    siteUrl: 'https://gatstrap.netlify.com',
-    author: 'jaxx2104',
-    twitter: 'jaxx2104',
+    title: 'JobSearch',
+    description: 'Jobs search engine',
+    siteUrl: 'https://jobsearch.netlify.com',
+    author: 'averger',
+    twitter: 'averger',
     adsense: '',
   },
   pathPrefix: '/',

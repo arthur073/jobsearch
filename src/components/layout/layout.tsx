@@ -22,10 +22,10 @@ const Layout: React.FC<Props> = ({ children, location }: Props) => {
   })
 
   return (
-    <div>
-      <Navibar title={siteMetadata.title} location={location} />
-      {children}
-      <Footer title={siteMetadata.title} author={siteMetadata.author} />
+    <div className="site">
+      {/* <Navibar title={siteMetadata.title} location={location} /> */}
+      <div className="site-content">{children}</div>
+      <Footer/>
     </div>
   )
 }

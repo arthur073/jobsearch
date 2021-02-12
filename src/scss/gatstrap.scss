@@ -88,3 +88,13 @@ img {
 img:hover {
   animation: pulse 0.5s;
 }
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex-grow: 1;
+}
